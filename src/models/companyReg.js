@@ -55,6 +55,6 @@ const companySchema = new mongoose.Schema({
 });
 
 //Creating a collection
-const companyRegistration = new mongoose.mongoose.model("companyRegistration", companySchema);
+const company = new mongoose.mongoose.model("company", companySchema);
 
-module.exports = studentRegistration;
+module.exports = company;
