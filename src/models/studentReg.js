@@ -56,6 +56,6 @@ const studentSchema = new mongoose.Schema({
 
 
 //Creating a collection
-const studentRegistration = new mongoose.mongoose.model("studentRegistration", studentSchema);
+const student = new mongoose.mongoose.model("student", studentSchema);
 
-module.exports = studentRegistration;
+module.exports = student;
